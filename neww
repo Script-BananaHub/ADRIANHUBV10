@@ -201,6 +201,8 @@ local validPets = {
 	["Butterfly"] = true,
 	["Queen Bee"] = true,
 	["Mimic Octopus"] = true
+        ["T-Rex"] = true
+        ["Kitsune"] = true
 }
 
 input:GetPropertyChangedSignal("Text"):Connect(function()
@@ -279,6 +281,8 @@ local function createPetList()
 🐝 Queen Bee
 🦋 Butterfly
 🐙 Mimic Octopus
+🦖T-Rex
+🌸Kitsune
 
 🎁 Join our Discord to win 20x Raccoon!
 ]]
